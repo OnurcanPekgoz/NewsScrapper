@@ -124,6 +124,7 @@ class NewsScraper:
         plt.xlabel('Words')
         plt.ylabel('Frequency')
         plt.title('Most Common Words')
+        plt.savefig('graph.png')
         plt.show()
 
     # Function that stores news data to database
